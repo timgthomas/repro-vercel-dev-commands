@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "echo \"I'm a fancy build command!\""
+    "start": "vercel dev",
+    "build": "snowpack build --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "snowpack": "^2.18.5",
     "vercel": "^21.0.1"
   }
 }
