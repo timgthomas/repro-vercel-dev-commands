@@ -21,3 +21,5 @@ However, if it launches a process for watching changes, for example, Vercel's de
   }
 }
 ```
+
+You'll also notice that the `dev` script is never run. To be fair, this behavior isn't explicitly described in [the documentation](https://vercel.com/docs/cli#commands/dev), so this part is likely not a bug (rather, an assumption on my part).
